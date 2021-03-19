@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(92, 7, 54);
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    padding: 5px;
+    font-size: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    border-radius: 10%;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin: 2px;
+}
+#inputShowScore{
+    width: 99%;
+    height: 100px;
+    display: block;
+    border-radius: 5%;
+    font-size: 80px;
+}
+.btn {
+    border-radius: 2%;
+    text-align: center;
+    text-decoration: none;
+    min-width: 50px;
+    background-color: white;
+}
+.column {
+    border: 1px solid black;
+    padding: 15px;
+    width: 40%;
+    border-radius: 5%;
+
+}
+.btn1 {
+    background-color: gray;
+    border-radius: 5%;
+}
+.btn2 {
+    background-color: rgb(20, 20, 170);
+    border-radius: 10%;
+    color: white;
+}
+.btn3 {
+    width: 105%;
+    text-align: center;
+    text-decoration: none;
+    min-width: 50px;
+    background-color: gray;
+}
+.btn4 {
+    border-left: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    min-width: 50px;
+    background-color: gray;
+}
+.btn1:hover{
+    background-color: lightgray;
+}
+.btn2:hover{
+    background-color: lightblue;
+}
+.btn4:hover{
+    background-color: lightgray;
+}
+.grid-item:hover{
+    cursor: pointer;
+}
